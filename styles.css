@@ -15,13 +15,14 @@ body {
 
 a {
   text-decoration: none;
-font-weight: lighter;  
-color: rgba(255, 255, 255, 0.692);
+  font-weight: 500;
+  font-stretch: semi-expanded;
+  color: rgb(182, 182, 182);
 }
 a:hover {
-  color: #white;
-  font-weight: normal;  
-  
+  color: #a8a8c2;
+  font-stretch: semi-expanded;
+  font-weight: 600;
 }
 
 /* Section Styles */
@@ -81,16 +82,15 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef9c;
-  color: #011f10;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #efefef9c;
-  color: #011f10;
-  font-weight: bold
+  background-color: rgba(9, 27, 20, 0.678) ;
+  color: #fff;
 }
 .card {
   margin: 30px;
@@ -122,24 +122,6 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0395a0;
-}
-
-ul.interests {
-  padding: 0;
-  text-align: center;
-}
-
-.interests li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #011f10;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.interests li:nth-child(odd) {
-  background: #083d27;
 }
 
 footer {
