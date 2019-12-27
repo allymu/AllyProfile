@@ -15,14 +15,13 @@ body {
 
 a {
   text-decoration: none;
-  font-weight: 500;
-  font-stretch: semi-expanded;
-  color: rgb(182, 182, 182);
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.815);
 }
+
 a:hover {
-  color: #a8a8c2;
-  font-stretch: semi-expanded;
-  font-weight: 600;
+  color: #ffffff;
+  font-weight: regular;
 }
 
 /* Section Styles */
@@ -89,8 +88,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: rgba(9, 27, 20, 0.678) ;
-  color: #fff;
+  background-color: #efefef9c ;
+  color: #black;
 }
 .card {
   margin: 30px;
@@ -122,6 +121,15 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0395a0;
+}
+
+.interests li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #073111;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
 }
 
 footer {
