@@ -16,7 +16,7 @@ body {
 a {
   text-decoration: none;
   font-weight: lighter;
-  color: rgba(255, 255, 255, 0.815);
+  color: rgba(255, 255, 255, 0.664);
 }
 
 a:hover {
@@ -131,6 +131,7 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
+
 
 footer {
   width: 100%;
