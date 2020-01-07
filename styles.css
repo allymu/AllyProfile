@@ -21,7 +21,7 @@ a {
 
 a:hover {
   color: #ffffff;
-  font-weight: regular;
+  font-weight: normal;
 }
 
 /* Section Styles */
@@ -94,7 +94,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #efefef9c ;
-  color: #black;
+  color: black;
   font-weight: bold;
 }
 .card {
@@ -129,7 +129,7 @@ header .profile-image:hover {
 div.gallery {
   margin: 15px;
   border: 1px solid #ccc;
-  float: center;
+  float: inherit;
   width: 400px;
   background-color: white;
 }
